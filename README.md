@@ -39,7 +39,7 @@ Backend
 ✔ Fully Responsive Design – Mobile-first, modern UI
 ✔ Backend REST API – GET/POST operations for all resources
 
-[Hero Section]("https://github.com/user-attachments/assets/4b2abfbb-81a0-4f6d-a63f-bba9863796c1")
+[Hero Section](https://github.com/user-attachments/assets/4b2abfbb-81a0-4f6d-a63f-bba9863796c1)
 
 🌐 API Endpoints
 Packages
