@@ -39,25 +39,7 @@ Backend
 ✔ Fully Responsive Design – Mobile-first, modern UI
 ✔ Backend REST API – GET/POST operations for all resources
 
-📁 Folder Structure
-SRVIZ/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── styles/
-│   └── package.json
-│
-├── backend/
-│   ├── routes/
-│   ├── models/
-│   ├── index.js
-│   ├── .env
-│   └── package.json
-│
-└── README.md
+[Hero Section]("https://github.com/user-attachments/assets/4b2abfbb-81a0-4f6d-a63f-bba9863796c1")
 
 🌐 API Endpoints
 Packages
