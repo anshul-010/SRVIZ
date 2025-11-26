@@ -1,88 +1,95 @@
-⭐ SRVIZ – Sports Travel Packages for Global Events
+# ⭐ SRVIZ – Sports Travel Packages for Global Events
 
-A modern full-stack web application offering curated sports travel packages, itinerary previews, VIP add-ons, and instant inquiries — powered by React, Tailwind, Node.js, Express, and MongoDB.
+A modern full-stack web application offering curated sports travel packages, itinerary previews, VIP add-ons, and instant inquiries — powered by **React, Tailwind CSS, Node.js, Express, and MongoDB**.
 
-🚀 Live Demo
+---
 
-🔗 [SRVIZ](https://srviz.netlify.app/)
+## 🚀 Live Demo
 
-📸 Project Overview
+🔗 [SRVIZ Live Demo](https://srviz.netlify.app/)
 
-SRVIZ helps users explore global sports event packages, check sample itineraries, submit inquiries, and browse VIP add-ons — all with a fast UI, smooth animations, and a secure backend API.
+---
 
-🛠 Tech Stack
-Frontend
+## 📸 Project Overview
 
-⚛️ React.js
+SRVIZ helps users:
 
-🎨 Tailwind CSS
+- Explore global sports event packages  
+- Check sample itineraries  
+- Submit inquiries via contact and VIP add-ons forms  
+- Browse premium VIP add-ons  
 
-🌀 Axios
+All features come with **fast UI, smooth animations**, and a **secure backend API**.
 
-🧩 Lucide Icons
+---
 
-Backend
+## 🛠 Tech Stack
 
-🟢 Node.js
+**Frontend:**  
 
-🚏 Express.js
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- 🌀 Axios  
+- 🧩 Lucide Icons  
 
-🍃 MongoDB (Mongoose)
+**Backend:**  
 
-✨ Features
+- 🟢 Node.js  
+- 🚏 Express.js  
+- 🍃 MongoDB (Mongoose)  
 
-✔ Packages Section – Displays all top travel packages
-✔ Itinerary Display – Horizontally scrollable sample itineraries
-✔ Contact Form – Sends enquiries and stores data in MongoDB
-✔ VIP Add-ons Form – Premium experience request system
-✔ Smooth Scrolling Navbar – Animated navigation between sections
-✔ Fully Responsive Design – Mobile-first, modern UI
-✔ Backend REST API – GET/POST operations for all resources
+---
 
-[Hero Section](https://github.com/user-attachments/assets/4b2abfbb-81a0-4f6d-a63f-bba9863796c1)
+## ✨ Features
 
-🌐 API Endpoints
-Packages
-GET /api/packages
+- ✔ **Packages Section** – Displays all top travel packages  
+- ✔ **Itinerary Display** – Horizontally scrollable sample itineraries  
+- ✔ **Contact Form** – Sends enquiries and stores data in MongoDB  
+- ✔ **VIP Add-ons Form** – Premium experience request system  
+- ✔ **Smooth Scrolling Navbar** – Animated navigation between sections  
+- ✔ **Fully Responsive Design** – Mobile-first, modern UI  
+- ✔ **Backend REST API** – GET/POST operations for all resources  
 
-Itinerary
-GET /api/itinerary
+---
 
-Contact Form
-POST /api/contact
+## 📸 Project Images
 
-⚙️ Installation & Setup
-1. Clone the Repository
+![Hero Section](https://github.com/user-attachments/assets/4b2abfbb-81a0-4f6d-a63f-bba9863796c1)
+
+*(Replace this URL with your actual GitHub-hosted image or an uploaded one in your repo for proper rendering)*
+
+---
+
+## 🌐 API Endpoints
+
+**Packages**  
+`GET /api/packages`  
+
+**Itinerary**  
+`GET /api/itinerary`  
+
+**Contact Form**  
+`POST /api/contact`  
+
+---
+
+## ⚙️ Installation & Setup
+
+**1. Clone the Repository**  
+```bash
 git clone https://github.com/anshul-010/srviz.git
 cd srviz
 
-🖥 Frontend Setup
+2. Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-🌐 Backend Setup
+3. Backend Setup
 cd backend
 npm install
 npm run server
 
-
-Create a .env file in backend:
-
+4. Create a .env file in the backend
 MONGODB_URI=your_mongo_connection
 PORT=8080
-
-🎯 To-Do (Future Enhancements)
-
-🔐 Admin dashboard for package management
-
-💳 Integrate payment gateway
-
-🌍 Multi-language support
-
-📸 Add gallery section
-
-👨‍💻 Developer
-
-Anshul
-Full-Stack Developer • React • Node • MongoDB
