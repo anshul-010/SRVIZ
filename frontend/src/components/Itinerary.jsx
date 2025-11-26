@@ -9,7 +9,7 @@ export const Itinerary = () => {
   async function fetchItinerary() {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:8080/api/itinerary");
+      const res = await axios.get("https://srviz-1.onrender.com/api/itinerary");
       setData(res.data.data || []);
     } catch (err) {
       setError(err.message || "Failed to load itinerary");

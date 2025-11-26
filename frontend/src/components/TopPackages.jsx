@@ -10,7 +10,7 @@ export const TopPackages = () => {
   async function getData() {
     try {
       setLoading(true);
-      const response = await axios.get("http://localhost:8080/api/packages");
+      const response = await axios.get("https://srviz-1.onrender.com/api/packages");
       setData(response.data.data || []);
     } catch (err) {
       setError(err.message || "Something went wrong");

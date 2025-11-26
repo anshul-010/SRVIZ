@@ -61,7 +61,7 @@ export const AddOnVip = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8080/api/contact",
+        "https://srviz-1.onrender.com/api/contact",
         formData
       );
 
